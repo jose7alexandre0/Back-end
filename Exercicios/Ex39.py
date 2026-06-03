@@ -10,3 +10,5 @@ elif a<b+c and b<a+c and c<a+b and a== b or a== c or b==c:
     print("Os segmentos acima podem formar um triangulo Isósceles")
 elif a<b+c and b<a+c and c<a+b and a!= b and a!= c and b!=c:
     print("Os segmentos acima podem formar um triangulo Escaleno")
+else:
+    print('Não forma um triangulo')
